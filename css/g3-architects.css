@@ -1,0 +1,57 @@
+:root {
+  --dark01: #131313;
+  --dark02: #424242;
+  --dark03: #727272;
+  --dark04: #a1a1a1;
+  --dark05: #d0d0d0;
+  --dark06: #e7e7e7;
+  --dark07: #f3f3f3;
+}
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("../fonts/WorkSans-Bold.eot");
+  src: url("../fonts/WorkSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/WorkSans-Bold.woff2") format("woff2"),
+    url("../fonts/WorkSans-Bold.woff") format("woff"),
+    url("../fonts/WorkSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-Medium";
+  src: url("../fonts/WorkSans-Medium.eot");
+  src: url("../fonts/WorkSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/WorkSans-Medium.woff2") format("woff2"),
+    url("../fonts/WorkSans-Medium.woff") format("woff"),
+    url("../fonts/WorkSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("../fonts/WorkSans-Regular.eot");
+  src: url("../fonts/WorkSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/WorkSans-Regular.woff2") format("woff2"),
+    url("../fonts/WorkSans-Regular.woff") format("woff"),
+    url("../fonts/WorkSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url("../fonts/WorkSans-SemiBold.eot");
+  src: url("../fonts/WorkSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/WorkSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/WorkSans-SemiBold.woff") format("woff"),
+    url("../fonts/WorkSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
