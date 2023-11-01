@@ -43,10 +43,13 @@ nav li {
   font-size: 64px;
   color: var(--dark01);
 }
-.hero > div > p {
+.hero > span {
   font-family: WorkSans-Regular;
   font-size: 16px;
   color: var(--dark03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero {
@@ -81,4 +84,282 @@ nav li {
   width: 1440px;
   padding-top: 45px;
   border-radius: 8px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+
+.feature > .img {
+  height: 342px;
+  width: 342px !important;
+  border-radius: 8px;
+  width: calc(50% - 20px);
+  padding: 10px;
+}
+
+.quick-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  justify-content: space-around;
+}
+
+.feature-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-content: center;
+  width: 537px;
+  height: 304px;
+}
+
+.fd-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fd-11 {
+  font-family: WorkSans-Medium;
+  font-size: 45px;
+  color: var(--dark03);
+}
+.fd-12 {
+  font-family: WorkSans-Bold;
+  font-size: 45px;
+  color: var(--dark01);
+}
+.fd-2 {
+  font-family: WorkSans-Bold;
+  font-size: 45px;
+  color: #ff900e;
+}
+.fd-3 {
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: var(--dark03);
+  margin-top: 20px;
+}
+
+.feature-details button {
+  height: 64px;
+  width: 180px;
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: white;
+  padding: 10px;
+  font-family: WorkSans-SemiBold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.feature-details button:hover {
+  background-color: #ff8800;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.features-left {
+  margin-top: 30px;
+}
+
+.fs-1-title {
+  font-family: WorkSans-Bold;
+  font-size: 45px;
+  color: var(--dark01);
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+}
+
+.fs-1-des {
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: var(--dark03);
+  margin-top: 24px;
+}
+
+.fs-2 {
+  width: 586px;
+  height: 982px;
+}
+.fs-info {
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.fs-2-title {
+  font-family: WorkSans-Bold;
+  font-size: 20px;
+  color: var(--dark01);
+  margin-top: 30px;
+}
+.fs-2-des {
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: var(--dark03);
+  margin-top: 10px;
+}
+
+.features-right img {
+  width: 708px;
+  height: 982px;
+  border-radius: 8px;
+}
+
+.features-right button {
+  height: 200px;
+  width: 342px;
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 120px;
+  right: 90px;
+}
+
+.features-right button p {
+  font-family: WorkSans-Bold;
+  font-size: 65px;
+  color: white;
+}
+.features-right button span {
+  font-family: WorkSans-Medium;
+  font-size: 25px;
+  color: white;
+}
+
+.features-right button:hover {
+  background-color: #ff8800;
+}
+
+.sf-title {
+  font-family: WorkSans-Bold;
+  font-size: 45px;
+  color: var(--dark01);
+}
+
+.sf-des {
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: var(--dark03);
+  width: 542px;
+  margin-top: 24px;
+}
+
+.some-facts {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1); /* Start with the button at its normal size */
+  }
+  100% {
+    transform: scale(1.1); /* End with the button scaled up by 10% */
+  }
+}
+
+.some-fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  height: 241.83px;
+  width: 241.83px;
+  gap: 5px;
+  cursor: pointer;
+  margin-bottom: 90px;
+}
+
+.some-fact:hover {
+  animation: zoomIn 0.5s ease-in-out;
+}
+
+.some-fact > .num {
+  font-family: WorkSans-SemiBold;
+  font-size: 45px;
+  color: var(--dark02);
+}
+.some-fact > .title {
+  font-family: WorkSans-SemiBold;
+  font-size: 20px;
+  color: var(--dark03);
+}
+
+.our-sponsors {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.os-title {
+  font-family: WorkSans-Bold;
+  font-size: 45px;
+  color: var(--dark01);
+}
+
+.os-des {
+  font-family: WorkSans-Regular;
+  font-size: 16px;
+  color: var(--dark03);
+  width: 542px;
+  text-align: center;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sponsor {
+  filter: grayscale(100%);
+}
+
+footer {
+  background-color: white;
+  padding-bottom: 216px;
+}
+
+.copyright {
+  background-color: rgba(255, 144, 14, 0.1);
+  font-family: WorkSans-Regular;
+  font-size: 20px;
+  color: var(--dark02);
+  border-radius: 8px;
+  height: 100px;
+  text-align: center;
+  padding-top: 39px;
 }
